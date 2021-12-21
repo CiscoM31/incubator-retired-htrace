@@ -61,7 +61,7 @@ public class TestHBaseSpanReceiver {
 
   @BeforeClass
   public static void setUpBeforeClass() throws Exception {
-    UTIL.startMiniCluster(1);
+    UTIL.startMiniCluster();
   }
 
   @AfterClass

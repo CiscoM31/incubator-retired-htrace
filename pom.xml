@@ -30,12 +30,6 @@ language governing permissions and limitations under the License. -->
   <modules>
     <module>htrace-c</module>
     <module>htrace-core4</module>
-    <module>htrace-webapp</module>
-    <module>htrace-zipkin</module>
-    <module>htrace-hbase</module>
-    <module>htrace-flume</module>
-    <module>htrace-htraced</module>
-    <module>htrace-kudu</module>
   </modules>
 
   <scm>
@@ -308,7 +302,7 @@ language governing permissions and limitations under the License. -->
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-core</artifactId>
-        <version>2.4.0</version>
+        <version>2.10.0</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
